@@ -1,8 +1,12 @@
-// TODO KYARO RED
 #map-container {
-    // REMOVE ON FINAL
-    height: 80vh;
-    width: 90vw;
+    @media (max-height: 400px) {
+        height: 350px;
+    }
+    @media (max-height: 700px) {
+        height: 500px;
+    }
+    height: 900px;
+    width: 100%;
     margin: auto;
     position: relative;
 }
@@ -58,16 +62,24 @@
 }
 
 #map-recenter-button svg {
-    color: red;
+    color: #E22E28;
 }
 
 #map-content {
     padding: 0 20px 30px;
 }
 
+#map-content-name {
+    margin: 30px 0 10px;
+}
+
 #map-overlay-close-button {
     width: 100%;
     margin-top: 30px;
+}
+
+#map-overlay-close-button a {
+    width: 100%;
 }
 
 * {box-sizing:border-box}
@@ -81,11 +93,13 @@
   display: none;
   min-height: 150px;
   background-color: rgba(0,0,0,0.2);
+  height: fit-content;
 }
 
 .slideshow-slide img {
     // background-color: rgba(0,0,0,0.2);
     display: none;
+    height: 100%;
     width: 100%;
 }
 
@@ -97,12 +111,11 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: red;
+  color: #E22E28;
   font-weight: bold;
   font-size: 18px;
   user-select: none;
   background-color: white;
-//   background-color: rgba(255,255,255,0.5);
 }
 
 #plusSlides-button-next {
@@ -110,12 +123,12 @@
 }
 
 /* Fading animation */
-.fade {
-  animation-name: fade;
+.slideshow-fade {
+  animation-name: slideshow-fade;
   animation-duration: 1s;
 }
 
-@keyframes fade {
+@keyframes slideshow-fade {
   from {opacity: .75}
   to {opacity: 1}
 }
