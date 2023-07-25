@@ -86,13 +86,15 @@ if ($("#map"))  {
     }).addTo(map)
     
     const unselectedIcon = L.icon({
-        iconUrl: 'https://raw.githubusercontent.com/oliviachang29/kyaro-leaflet/main/src/assets/images/unselected.svg',
-        iconSize: [34 * 1.49, 46 * 1.49], // size of the icon
-        iconAnchor: [17, 46] // changed marker icon position
+        iconUrl: '/assets/images/test/unselected.svg',
+        // iconUrl: 'https://raw.githubusercontent.com/oliviachang29/kyaro-leaflet/main/src/assets/images/unselected.svg',
+        iconSize: [36, 46 * 1.05], // size of the icon
+        iconAnchor: [10, 36] // changed marker icon position
     })
     
     const selectedIcon = L.icon({
-        iconUrl: 'https://raw.githubusercontent.com/oliviachang29/kyaro-leaflet/main/src/assets/images/selected.svg',
+        iconUrl: '/assets/images/test/selected.svg',
+        // iconUrl: 'https://raw.githubusercontent.com/oliviachang29/kyaro-leaflet/main/src/assets/images/selected.svg',
         iconSize: [80, 80], // size of the icon
         iconAnchor: [33.5, 51.5] // changed marker icon position
     })

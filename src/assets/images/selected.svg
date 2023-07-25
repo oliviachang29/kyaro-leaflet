@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>selected</title>
-    <defs>
-        <filter x="-35.3%" y="-26.1%" width="170.6%" height="152.2%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="selected">
             <circle id="Oval" fill-opacity="0.3" fill="#808080" cx="40" cy="40" r="40"></circle>
-            <g id="unselected" filter="url(#filter-1)" transform="translate(25.000000, 17.000000)">
+            <g id="unselected" transform="translate(25.000000, 17.000000)">
                 <path d="M14.8333333,46 C27.6111111,34.107821 34,26.007821 34,21.7 C34,15.2382684 28.8512746,10 22.5,10 C16.1487254,10 11,15.2382684 11,21.7 C11,26.007821 12.2777778,34.107821 14.8333333,46 Z" id="Oval" fill-opacity="0.6" fill="#000000"></path>
                 <path d="M15,46 C25,30.804438 30,20.454438 30,14.95 C30,6.69334299 23.2842712,0 15,0 C6.71572875,0 0,6.69334299 0,14.95 C0,20.454438 5,30.804438 15,46 Z" id="Oval" fill="#E22E26"></path>
                 <ellipse id="Oval" fill="#FFFFFF" cx="15.1153846" cy="14.605" rx="5.42307692" ry="5.405"></ellipse>

@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="50px" height="62px" viewBox="0 0 50 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="31px" height="43px" viewBox="0 0 31 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>unselected</title>
-    <defs>
-        <filter x="-30.9%" y="-22.8%" width="161.8%" height="145.7%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="unselected" filter="url(#filter-1)" transform="translate(8.000000, 8.000000)">
-            <path d="M14.8333333,46 C27.6111111,34.107821 34,26.007821 34,21.7 C34,15.2382684 28.8512746,10 22.5,10 C16.1487254,10 11,15.2382684 11,21.7 C11,26.007821 12.2777778,34.107821 14.8333333,46 Z" id="Oval" fill-opacity="0.6" fill="#000000"></path>
-            <path d="M15,46 C25,30.804438 30,20.454438 30,14.95 C30,6.69334299 23.2842712,0 15,0 C6.71572875,0 0,6.69334299 0,14.95 C0,20.454438 5,30.804438 15,46 Z" id="Oval" fill="#E22E26"></path>
-            <ellipse id="Oval" fill="#FFFFFF" cx="15.1153846" cy="14.605" rx="5.42307692" ry="5.405"></ellipse>
+        <g id="unselected" transform="translate(1.000000, 1.000000)">
+            <path d="M13.0882353,41 C24.3627451,30.4004492 30,23.180884 30,19.3413043 C30,13.5819349 25.457007,8.91304348 19.8529412,8.91304348 C14.2488753,8.91304348 9.70588235,13.5819349 9.70588235,19.3413043 C9.70588235,23.180884 10.8333333,30.4004492 13.0882353,41 Z" id="Oval" fill-opacity="0.6" fill="#000000"></path>
+            <path d="M13.2352941,41 C22.0588235,27.4561295 26.4705882,18.2311295 26.4705882,13.325 C26.4705882,5.96580571 20.5449452,0 13.2352941,0 C5.92564302,0 1.75851681e-15,5.96580571 1.75851681e-15,13.325 C1.75851681e-15,18.2311295 4.41176471,27.4561295 13.2352941,41 Z" id="Oval" stroke-opacity="0.314357517" stroke="#000000" stroke-width="0.5" fill="#E22E26"></path>
+            <ellipse id="Oval" fill="#FFFFFF" cx="13.3371041" cy="13.0175" rx="4.78506787" ry="4.8175"></ellipse>
         </g>
     </g>
 </svg>
